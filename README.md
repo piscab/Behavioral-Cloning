@@ -5,8 +5,8 @@
 
 
 ### Overview
-This project uses a deep convolutional neural networks to clone driving behavior. 
-he model will output a steering angle to an autonomous vehicle after training, validating and testing a CNN model using Keras.   
+This project uses a deep convolutional neural network to clone driving behavior. 
+The model outputs the steering angle to an autonomous vehicle after training, validating and testing a CNN model using Keras.   
 
 
 ### Dependencies
@@ -23,9 +23,9 @@ Inspired by the [Paul Heraty's approach](https://github.com/PaulHeraty/Behaviour
 The model I present here selects three picture-in-picture squares of 64x64 pixels in the middle-lower part of the image; one in the center and the others in the extreme left and right of the image. 
 
 As an example, the code first gets the whole image and then selects three PiPs:
-* Whole image
+* Whole image  
 ![WholeImage](myWholeImage.png)
-* Pictures-in-picture
+* Pictures-in-picture  
 ![ThreePiPs](myLeftCenterRigth.png)  
 
 The full description of the approach is explained in a separate [file](REFLECTIONS.md). 
