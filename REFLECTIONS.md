@@ -122,4 +122,4 @@ From this project I learned some useful things:
 * ... because a very rich model in parameters without data can easily lead to overfitting
 * Carefully follow the loss/cost function trend to adjust the learning rate (even with Adam Opt)
 * Carefully follow the loss/cost function trend for varying the complexity of the model
-* Your own idea can be unsafe
+
