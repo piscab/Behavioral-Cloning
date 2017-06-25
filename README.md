@@ -22,13 +22,11 @@ Inspired by the [Paul Heraty's approach](https://github.com/PaulHeraty/Behaviour
 ### Comments
 The model I present here selects three picture-in-picture squares of 64x64 pixels in the middle-lower part of the image; one in the center and the others in the extreme left and right of the image. 
 
-As an example, the code first get the whole image: 
-
+As an example, the code first gets the whole image and then selects three PiPs:
+* Whole image
 ![WholeImage](myWholeImage.png)
+* Pictures-in-picture
+![ThreePiPs](myLeftCenterRigth.png)  
 
-and then it use as input three PiPs:
-
-![ThreePiPs](myLeftCenterRigth.png)
 The full description of the approach is explained in a separate [file](REFLECTIONS.md). 
 
-* the test accuracy: 85%
