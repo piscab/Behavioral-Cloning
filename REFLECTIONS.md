@@ -26,7 +26,7 @@ and then it uses - as input - three PiPs:
 
 ### Details of the model
 
-Given a set of three picture-in-picture squares (a 64x64 pixels input for each of them), the model follows the architecture below visualized:
+Given a set of three picture-in-picture squares (a 64x64 pixels input for each of them), the model follows the architecture below:
 
    
    ** -------------------    -------------------     ------------------
